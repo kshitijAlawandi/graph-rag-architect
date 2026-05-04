@@ -201,7 +201,7 @@ The project generates interactive Neo4j visualizations of your codebase's call g
 
 **Filtered dependency view** — showing the `parse_directory → parse_file` call chain:
 
-> ![graph_call_chain.png](assets/graph_call_chain.png)> *(See `/assets/graph_call_chain.png`)*
+> ![graph_call_chain.png](assets/graph_call_chain.png)>
 
 ---
 
