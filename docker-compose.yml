@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  neo4j:
+    image: neo4j:latest
+    container_name: graph_rag_neo4j
+    ports:
+      - "7474:7474" # HTTP for the Browser UI
+      - "7687:7687" # Bolt protocol for the Python driver
+    environment:
+      - NEO4J_AUTH=neo4j/password123 # User: neo4j, Pass: password123
+    volumes:
+      - ./neo4j/data:/data

@@ -1,0 +1,13 @@
+# Core AI / Agent
+langchain-core
+langchain-openai
+langgraph
+
+# Vector Database
+chromadb
+
+# Graph Database
+neo4j
+
+# Environment
+python-dotenv
