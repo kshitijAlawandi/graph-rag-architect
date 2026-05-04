@@ -197,11 +197,11 @@ The project generates interactive Neo4j visualizations of your codebase's call g
 
 **Full codebase node map** — every function as a node:
 
-> *(See `/assets/graph_all_nodes.png`)*
+> ![graph_all_nodes.png](assets/graph_all_nodes.png)
 
 **Filtered dependency view** — showing the `parse_directory → parse_file` call chain:
 
-> *(See `/assets/graph_call_chain.png`)*
+> ![graph_call_chain.png](assets/graph_call_chain.png)> *(See `/assets/graph_call_chain.png`)*
 
 ---
 
